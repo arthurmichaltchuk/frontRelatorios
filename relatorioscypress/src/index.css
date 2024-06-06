@@ -1,0 +1,99 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+
+
+body{
+  /* font-family: 'Nunito Sans', 'sans-serif'; */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+.header {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 2px 2px 2px #cecece;
+}
+
+.logo {
+    max-height: 100%;
+    margin: auto;
+}
+
+.buttonListagem {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background-color: #E24B00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 2px #cecece;
+}
+
+.buttonListagem:hover {
+    background-color: #FF6600;
+}
+
+/* Listagem */
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.listaItem {
+    display: flex;
+    align-items: center;
+}
+
+.buttonAbrir {
+    background-color: #E24B00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonAbrir:hover {
+    background-color: #FF6600;
+}
