@@ -4,12 +4,13 @@
 
 
 
-body{
-  /* font-family: 'Nunito Sans', 'sans-serif'; */
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #f8f9fa !important;
 }
 
 p,
@@ -62,6 +63,10 @@ h1 {
     background-color: #FF6600;
 }
 
+.homeBody{
+    min-height: calc(100vh - 157px);
+}
+
 /* Listagem */
 
 .lista {
@@ -92,8 +97,41 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    min-width: 65px;
 }
 
 .buttonAbrir:hover {
     background-color: #FF6600;
+}
+
+/* footer */
+.logoFooter {
+    margin-right: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #cecece !important;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-link {
+    flex: 1;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.footer-link a {
+    color: #FF6600;
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin: 0;
 }
